@@ -10,7 +10,8 @@
       "/home/halkeye/git/halkeye/semantic-release-helm",
       {
         "chartPath": ".",
-        "populateChangelog": "true"
+        "populateChangelog": "true",
+        "onlyUpdateVersion": "true",
       }
     ],
     ["@semantic-release/git", {
