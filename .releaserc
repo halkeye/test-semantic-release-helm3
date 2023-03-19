@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    [
+      "/home/halkeye/git/halkeye/semantic-release-helm",
+      {
+        "chartPath": ".",
+        "populateChangelog": "true"
+      }
+    ],
+    ["@semantic-release/git", {
+      "assets": ["Chart.yaml"],
+      "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+    }]
+  ]
+}
