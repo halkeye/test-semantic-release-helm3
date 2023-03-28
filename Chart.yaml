@@ -3,7 +3,7 @@ appVersion: v1.11.25
 description: Communicate the way you want with Riot - a universal secure chat app entirely under your control.
 icon: https://raw.githubusercontent.com/vector-im/element-web/develop/res/themes/element/img/logos/element-logo.svg
 name: element-web
-version: 1.1.0
+version: 1.2.0
 type: application
 keywords:
   - synapse
@@ -18,10 +18,11 @@ maintainers:
   - name: Gavin Mogan
     email: helm@gavinmogan.com
 annotations:
-  artifacthub.io/changes: |
-    |-
-    - fix: this fixes: ([5b85d5474a79e9bbb04de0a8ac63ef577fc05cb0](https://github.com/halkeye/test-semantic-release-helm3/commit/5b85d5474a79e9bbb04de0a8ac63ef577fc05cb0))
-    - feat: feature ofsome sort: ([62e16f5c2e8c284ab00990fdf9bec92a289cfa38](https://github.com/halkeye/test-semantic-release-helm3/commit/62e16f5c2e8c284ab00990fdf9bec92a289cfa38))
+  artifacthub.io/changes: |2
+     - 'force release (still 1.11.25) ([bebf930](https://github.com/halkeye/test-semantic-release-helm3/commit/bebf93099de57b7317b0671e009389ee6b858445))'
+     - 'thing ([972dcf4](https://github.com/halkeye/test-semantic-release-helm3/commit/972dcf4481b391a0285d57201eac5ab39427145e))'
+     - 'use shared release config ([4b7d561](https://github.com/halkeye/test-semantic-release-helm3/commit/4b7d5611071bbcc8930085ccd52e5a404bace475))'
+     - 'this is a feat ([29fb1d5](https://github.com/halkeye/test-semantic-release-helm3/commit/29fb1d5780d93bf0900ea39ba1d4c96adaf3867d))'
   artifacthub.io/containsSecurityUpdates: 'true'
   artifacthub.io/images: |
     - name: element-web
